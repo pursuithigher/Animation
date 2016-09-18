@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Animation</string>
+
+    <string name="transition">transition</string>
+    <string name="slide">slide</string>
+    <string name="explode">explode</string>
+    <string name="fade">fade</string>
+
+
+    <string name="sharelement">sharelement</string>
+    <string name="sharedtitle">sharedtit</string>
+    <string name="sharedimage">sharedimg</string>
+
+    <string name="viewanimation">view animation</string>
+    <string name="reveal">reveal</string>
+
+</resources>

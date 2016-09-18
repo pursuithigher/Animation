@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <data class=".MainBinding">
+        <variable
+            name="clickListener"
+            type="android.view.View.OnClickListener"/>
+    </data>
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/transition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/transition"
+            android:onClick="@{clickListener}"
+            android:layout_margin="12dp"
+            />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="the image will be shared"
+            android:padding="12dp"
+            />
+        <ImageView
+            android:id="@+id/iamge"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:background="@color/colorAccent"
+            />
+
+        <Button
+            android:id="@+id/sharelements"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sharelement"
+            android:onClick="@{clickListener}"
+            android:layout_margin="12dp"
+            />
+
+        <Button
+            android:id="@+id/reveal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/reveal"
+            android:onClick="@{clickListener}"
+            android:layout_margin="12dp"
+            />
+    </LinearLayout>
+</layout>
